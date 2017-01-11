@@ -1,0 +1,11 @@
+{
+  "name": "yaas",
+  "version": "1.0.0",
+  "description": "yes as a service",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "tychosdrunkelk, theoperatore",
+  "license": "ISC"
+}
