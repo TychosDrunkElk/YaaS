@@ -6,6 +6,7 @@ const apiKey = 'dc6zaTOxFJmzC';
 const express = require('express');
 const app = express();
 const createGiphyService = require('./giphyService');
+const yeses = require('./yeses');
 const service = createGiphyService(apiKey);
 
 // respond with "hello world" when a GET request is made to the homepage
@@ -29,7 +30,7 @@ app.get('/api/v0', (req, res) => {
     .getRandomGif('yes')
     .then(gifData => {
       return res.json({
-        text: 'Yaas', // todo: randomize yes
+        text: yeses[Math.round(Math.random() * (yeses.length - 1))],
         gif: gifData,
         status: 'OK',
       });
