@@ -1,3 +1,15 @@
 module.exports = [
-  "yaaaaaaaas"
+  "yaaaaaaaas",
+  "yus",
+  "yis",
+  "ja",
+  "si",
+  "yarp",
+  "yarrrr",
+  "ya",
+  "yeh",
+  "yaws",
+  "yaaas queen",
+  "affirmative",
+  "you got it",
 ];
