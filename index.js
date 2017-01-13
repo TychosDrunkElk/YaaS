@@ -9,9 +9,7 @@ const createGiphyService = require('./giphyService');
 const service = createGiphyService(apiKey);
 
 // respond with "hello world" when a GET request is made to the homepage
-app.get('/', (req, res) => {
-  res.send('hello world');
-});
+app.use(express.static('docs'));
 
 app.post('/api/v0');
 app.get('/api/v0', (req, res) => {

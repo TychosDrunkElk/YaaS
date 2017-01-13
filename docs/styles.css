@@ -1,0 +1,31 @@
+.yaas-header {
+  background-image: url("./yaas.gif");
+  background-position: 50%;
+  background-size: cover;
+  display: flex;
+  height: 100vh;
+  width: 100%;
+}
+
+.yaas-header:before {
+  background: rgba(255,255,255,.7);
+  content: "";
+  height: 100vh;
+  position: absolute;
+  width: 100vw;
+}
+
+.yaas-info {
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  align-self: center;
+  background-image: url(./yaas.gif);
+  background-position: 50%;
+  background-size: cover;
+  padding: 0 16vw;
+  position: relative;
+  text-align: center;
+  width: 100%;
+}
+
+
